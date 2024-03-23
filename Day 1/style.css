@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.left {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: radial-gradient(50% 50% at 50% 50%, #FBBF24 0%, #F59E0B 100%);
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, #F8FAFC 0%, #F5F8FB 45.49%, #F1F5F9 100%);
+    float: right;
+}
+    
+.hello {
+    position: relative;
+    margin-top: 15vh;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.hello h1 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+.hello p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #5D6C79;
+    
+}
+
+form {
+    padding: 75px 100px 0px 100px; 
+    box-sizing: border-box; 
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+}
+
+label[for="email"], label[for="password"] {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #334155;
+}
+
+#email, #password {
+    padding: 16px;
+    border-radius: 16px ;
+    font-family: Montserrat; 
+}
+
+#email::placeholder, #password::placeholder {
+    font-family: Montserrat; 
+    font-size: 20px; 
+    text-align: left;
+    opacity: 25%; 
+}
+
+.forgot-password {
+    font-family: Montserrat; 
+    font-size: 12px; 
+    color: #334155;
+    text-align: right; 
+    margin-top: 5px; 
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+input[type="submit"] {
+    border-radius: 12px ;
+    padding: 10px;
+    background: linear-gradient(90deg, #FBBF24 0%, #F59E0B 100%); 
+    font-family: Montserrat; 
+    font-size: 28px;
+    font-weight: 500; 
+    text-align: center; 
+    color: white;
+    border: none; 
+    cursor: pointer; 
+}
+
+
+
+.register-now {
+    padding: 40px;
+    font-family: Montserrat;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.register-now a {
+    color: #334155; 
+    text-decoration: none; 
+}
+
+.register-now a:hover {
+    text-decoration: underline; 
+}
+ 
+
