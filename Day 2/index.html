@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Customer Management</title>
+    <link rel="stylesheet" href="inde.css">
+</head>
+<body>
+    <h1>Gym Customer Management</h1>
+    <div class="container">
+        <form id="customerForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+
+            <label for="contact">Contact Information:</label>
+            <input type="text" id="contact" required><br>
+
+            <label for="membership">Membership Type:</label>
+            <select id="membership" required>
+                <option value="basic">Basic</option>
+                <option value="premium">Premium</option>
+                <option value="vip">VIP</option>
+            </select><br>
+
+            <button type="button" onclick="addCustomer()">Add Customer</button>
+            <button type="button" onclick="deleteCustomer()">Delete Customer</button>
+        </form>
+
+        <div id="customerList">
+            <h2>Customer List</h2>
+            <ul id="list"></ul>
+        </div>
+    </div>
+
+    <script src="inde.js"></script>
+</body>
+</html>
